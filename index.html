@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav style="font-size: 13px;">
+        <div class="nav-link">Gmail</div>
+        <div class="nav-link">Images</div>
+        <div class="nav-img">
+            <svg 
+                style="width: 24px; height: 24px"
+                class="gb_h" 
+                focusable="false" 
+                viewBox="0 0 24 24">
+                <path 
+                fill="#ffffff"
+                d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                </path>
+            </svg>
+        </div>
+        <div class="nav-img" style="width: 32px; height: 32px; ">
+            <img 
+                style="width: 32px; height: 32px; border-radius: 25px;"
+                src="pfp.png"
+                alt=""
+            />
+        </div>
+    </nav>
+
+    <div>
+        <div 
+        style="
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            height: calc(100vh - 400px);
+            overflow: hidden;
+            font-size: 14px;
+            "
+        >
+            <div style="display: flex; justify-content: center;">
+                <img width="290px" src="google.png" alt="logo"/>
+            </div>
+        <!--search bar -->
+        <div class="search-bar"
+            style="display: flex; 
+            border:1px solid #5f6368;
+            border-radius: 40px;
+            padding: 10px;
+            width: 584px;
+            margin-top: 30px;
+            align-content: center;
+            justify-content: center;
+            "
+        >  
+            <svg 
+                focusable="false" 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24"
+                style="width: 22px;"
+            >
+                <path 
+                fill="#515151"
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                </path>
+            </svg>
+        
+            <!--text bar -->
+            <div style="width: 100%;">
+                <input style="padding-top: 6px;
+                padding-left: 10px;" type="text" width="100%" value="">
+            </div>
+                <div>
+                    <svg class="Gdd5U" 
+                    style="width: 24px; height: 24px;"
+                    focusable="false" 
+                    viewBox="0 0 192 192" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <rect 
+                        fill="none" 
+                        height="192" 
+                        width="192">
+                        </rect>
+                            <g>
+                                <circle fill="#34a853" cx="144.07" cy="144" r="16">                            
+                                </circle>
+                                <circle fill="#4285f4" cx="96.07" cy="104" r="24">                        
+                                </circle>
+                                    <path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path><path fill="#fbbc04" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path><path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z">
+                                    </path>
+                            </g>
+                    </svg>
+                </div>
+            </div>
+            <!--buttons-->
+            <div style="display: flex; position: inherit; justify-content: center; margin-top: 40px; align-items: center; ; ">
+                <button style="margin-right: 10px;">Pesquisa Google</button>
+                <button>Estou com sorte</button>
+            </div>
+    </div>
+    <footer style="position: absolute; bottom: 0; background-color:#171717; width: 100%; color: #bdc1c6;" >
+
+        <div style="padding: 15px 30px; border-bottom: 1px solid #3c4043; font-size: 15px;">Brasil
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 5px;">
+
+            <div style="display: flex; font-size: 14px;
+            font-family: arial,sans-serif; padding: 0 20px; " class="links">
+                <div>Sobre</div>
+                <div>Publicidade</div>
+                <div>Negócios</div>
+                <div>Como funciona a Pesquisa</div>
+            </div>
+            <div style="display: flex; font-size: 14px;
+            font-family: arial,sans-serif; padding: 0 20px;"class="links">
+                <div>Privacidade</div>
+                <div>Termos</div>
+                <div>Configurações</div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
