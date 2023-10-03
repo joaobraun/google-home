@@ -9,12 +9,11 @@
 </head>
 <body>
     
-    <nav style="font-size: 13px;">
+    <nav>
         <div class="nav-link">Gmail</div>
         <div class="nav-link">Images</div>
-        <div class="nav-img">
-            <svg 
-                style="width: 24px; height: 24px"
+        <div class="nav-img dots">
+            <svg
                 class="gb_h" 
                 focusable="false" 
                 viewBox="0 0 24 24">
@@ -24,9 +23,8 @@
                 </path>
             </svg>
         </div>
-        <div class="nav-img" style="width: 32px; height: 32px; ">
-            <img 
-                style="width: 32px; height: 32px; border-radius: 25px;"
+        <div class="nav-img pfp">
+            <img class="profile"
                 src="resources/pfp.png"
                 alt=""
             />
@@ -34,33 +32,12 @@
     </nav>
 
     <div>
-        <div 
-        style="
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: center;
-            height: calc(100vh - 400px);
-            overflow: hidden;
-            font-size: 14px;
-            "
-        >
-            <div style="display: flex; justify-content: center;">
-                <img width="290px" src="resources/google.png" alt="logo"/>
+        <div class="main-section">
+            <div class="main-logo">
+                <img class="logo"src="resources/google.png" alt="logo"/>
             </div>
         <!--search bar -->
-        <div class="search-bar"
-            style="display: flex; 
-            border:1px solid #5f6368;
-            border-radius: 40px;
-            padding: 10px;
-            width: 584px;
-            margin-top: 30px;
-            align-content: center;
-            justify-content: center;
-            "
-        >  
+        <div class="search-bar">  
             <svg 
                 focusable="false" 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -74,9 +51,8 @@
             </svg>
         
             <!--text bar -->
-            <div style="width: 100%;">
-                <input style="padding-top: 6px;
-                padding-left: 10px;" type="text" width="100%" value="">
+            <div class="text-area">
+                <input class="text-area btn" type="text" width="100%" value="">
             </div>
                 <div>
                     <svg class="Gdd5U" 
@@ -102,32 +78,25 @@
                 </div>
             </div>
             <!--buttons-->
-            <div style="display: flex; position: inherit; justify-content: center; margin-top: 40px; align-items: center; ; ">
-                <button style="margin-right: 10px;">Pesquisa Google</button>
+            <div class="main-btn">
+                <button>Pesquisa Google</button>
                 <button>Estou com sorte</button>
             </div>
     </div>
-    <footer style="position: absolute; bottom: 0; background-color:#171717; width: 100%; color: #bdc1c6;" >
-
-        <div style="padding: 15px 30px; border-bottom: 1px solid #3c4043; font-size: 15px;">Brasil
-        </div>
-
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding: 5px;">
-
-            <div style="display: flex; font-size: 14px;
-            font-family: arial,sans-serif; padding: 0 20px; " class="links">
-                <div>Sobre</div>
-                <div>Publicidade</div>
-                <div>Negócios</div>
-                <div>Como funciona a Pesquisa</div>
+    <footer class="footer-section">
+        <div class="footer-location">Brasil</div>
+        <div class="footer-about">
+            <div class="footer-links">
+                <a class="links" href="#">Sobre</a>
+                <a class="links" href="#">Publicidade</a>
+                <a class="links" href="#">Negócios</a>
+                <a class="links" href="#">Como funciona a Pesquisa</a>
             </div>
-            <div style="display: flex; font-size: 14px;
-            font-family: arial,sans-serif; padding: 0 20px;"class="links">
-                <div>Privacidade</div>
-                <div>Termos</div>
-                <div>Configurações</div>
+            <div class="footer-links">
+                <a class="links" href="#">Privacidade</a>
+                <a class="links" href="#">Termos</a>
+                <a class="links" href="#">Configurações</a>
             </div>
-
         </div>
     </footer>
 </body>
