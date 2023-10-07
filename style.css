@@ -14,6 +14,7 @@ nav {
 	justify-content: flex-end;
 	align-items: center;
 	font-size: 13px;
+	padding: 4px;
 }
 
 nav div {
@@ -37,8 +38,8 @@ nav div {
 }
 
 .nav-img:hover {
-	background-color: #515151;
-	border-radius: 50%;
+	background-color: #5151514d;
+	border-radius: 55%;
 }
 
 .main-section {
@@ -57,7 +58,7 @@ nav div {
 	justify-content: center;
 }
 .logo {
-	width: 290px;
+	width: 280px;
 }
 .profile {
 	width: 32px;
@@ -73,11 +74,12 @@ input {
 }
 
 .search-bar {
+	margin-top: 20;
 	display: flex;
 	border: 1px solid #5f6368;
 	border-radius: 40px;
 	padding: 10px;
-	width: 584px;
+	width: 562px;
 	margin-top: 30px;
 	align-content: center;
 	justify-content: center;
@@ -118,7 +120,7 @@ button {
 }
 
 button:hover {
-	border: 1px solid #515151;
+	border: 1px solid #5151517a;
 }
 
 .footer-section {
