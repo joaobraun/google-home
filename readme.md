@@ -1,3 +1,3 @@
-### Google Home
+### Google Homepage
 
-google homepage clone
+I just wanted to try and clone Google's home.
